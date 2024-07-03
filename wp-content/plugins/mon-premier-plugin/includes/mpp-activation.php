@@ -13,7 +13,7 @@ function mpp_activation()
     if ($wpdb->get_var("SHOW TABLES LIKE '$table_parametres'") != $table_parametres) {
         $sql = "CREATE TABLE $table_parametres (
                 id int NOT NULL AUTO_INCREMENT,
-                couleur_bg varchar(10)  NOT NULL,
+                couleur_bg varchar(10) NOT NULL,
                 PRIMARY KEY (id)
             ) $charset_collate";
 
