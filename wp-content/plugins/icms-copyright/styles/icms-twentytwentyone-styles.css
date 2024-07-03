@@ -1,0 +1,28 @@
+/**
+ * Styles thème twenty twenty-one 
+ */
+
+
+.site {
+    background-color: var(--global--color-background);
+    margin-bottom: 55px;
+    z-index: 1;
+}
+
+.icms-copyright {
+    background-color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+.icms-copyright__text {
+    color: black;
+    font-size: .75em;
+    margin: 0;
+}
