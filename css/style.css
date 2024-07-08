@@ -1,0 +1,135 @@
+:root {
+    --couleur-bleu: #102f74;
+    --couleur-bleu-clair: #A1B0CD;
+    --couleur-bleu-clair-2: #E6EAF2;
+    --couleur-fonce-gris: #333333;
+    --couleur-gris: #f1f1f1;
+    --couleur-gris2: #999999;
+    --couleur-rouge: #d0001a;
+    --couleur--rouge2: #9B0013;
+    --couleur-rouge3: #F8D9DD;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+th {
+    background-color: var(--couleur-fonce-gris);
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid var(--couleur-fonce-gris);
+}
+
+td {
+    border: 1px solid var(--couleur-fonce-gris);
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: var(--couleur-gris);
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid var(--couleur-gris2);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid var(--couleur-gris2);
+    border-radius: 5px;
+}
+
+.btn {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid var(--couleur-bleu-clair);
+    color: var(--couleur-bleu);
+    border-radius: 5px;
+    background-color: var(--couleur-bleu-clair-2);
+    transition: background-color 0.3s ease;
+
+}
+
+.btn:hover {
+    background-color: var(--couleur-bleu-clair);
+    color: #fff;
+}
+
+.btn.red {
+    border: 2px solid var(--couleur--rouge2);
+    color: var(--couleur-rouge);
+    
+}
+
+.btn.red:hover {
+    background-color: var(--couleur-rouge3);
+    color: var(--couleur-rouge);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.list {
+    border: solid 2px black;
+    width: 550px;
+}
+
+a {
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.strong {
+    font-weight: bold;;
+}
+
+.edit {
+    margin-top: 0;
+}
